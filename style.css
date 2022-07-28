@@ -1,0 +1,112 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono";
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+html {
+    font-size: 15px;
+    background-color: #EEE;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    position: relative;
+}
+
+.navbar_container {
+    position: fixed;
+    display: inline-block;
+    height: 100%;
+    width: 90px;
+}
+
+
+#navbar_logo {
+    max-width: 3rem;
+    margin-left: 30%;
+    margin-top: 27%;
+}
+
+.navbar_menu {
+    margin: 12rem auto;
+}
+
+.navbar_menu_bottom {
+    position: fixed;
+    display: inline-block;
+    bottom: 10px;
+}
+
+
+.navbar_links{
+    color: #333;
+    display: block;
+    margin: 1.2rem 30%;
+}
+
+.navbar_links:hover{
+    color: red;
+}
+
+/* POSTS */
+
+.feed {
+    display: block;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.post_container {
+    width: 54%;
+    margin: auto;
+    margin-bottom: 6%;
+    align-content: center;
+    position: relative;
+    top: 17rem;
+    display: flex;
+    left: 2.1rem;
+}
+
+.post {
+    text-align: left;
+    display: block;
+}
+
+.post_title {
+    font-weight: bold;
+}
+
+.post_title_link {
+    color: #333;
+}
+
+.post_title_link:hover {
+    color: red;
+}
+
+.post_tag {
+    font-size: 9px;
+    font-weight: lighter;
+}
+
+.post_tag_link {
+    color: #333;
+}
+
+.post_tag_link:hover {
+    color: red;
+}
+
+.post_img {
+    margin-right: 1.5rem;
+}
