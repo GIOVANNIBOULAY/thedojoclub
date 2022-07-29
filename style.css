@@ -67,10 +67,10 @@ html {
 }
 
 .post_container {
-    width: 54%;
+    max-width: 60%;
     margin: auto;
     margin-bottom: 6%;
-    align-content: center;
+
     position: relative;
     top: 17rem;
     display: flex;
@@ -79,7 +79,6 @@ html {
 
 .post {
     text-align: left;
-    display: block;
 }
 
 .post_title {
@@ -109,4 +108,10 @@ html {
 
 .post_img {
     margin-right: 1.5rem;
+    max-height: 240px;
+    max-width: 240px;
+}
+
+#post_date {
+    font-style: italic;
 }
